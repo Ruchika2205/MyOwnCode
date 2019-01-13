@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SuiteFromXML" verbose="1" >
+    <test name="MyTestFromXML" >
+        <classes>
+            <class name="Day3.DiceTests">
+            <methods>
+                <include name="test001"/>
+            </methods>
+            </class>
+
+        </classes>
+    </test>
+
+
+</suite>
